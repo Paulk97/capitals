@@ -1,6 +1,6 @@
 list_of_capitals = {'Aland Islands':'Mariehamn',
-'Albania':'Tirana',
-'Andorra':'Andorra la Vella',
+	'Albania':'Tirana',
+	'Andorra':'Andorra la Vella',
 'Armenia':'Yerevan',
 'Austria':'Vienna',
 'Azerbaijan':'Baku',
