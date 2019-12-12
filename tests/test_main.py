@@ -15,7 +15,7 @@ class TestMain(unittest.TestCase):
         
     def test_no_datafile(self):
         datafile = csv_reader(path="/tmp/nonexistentfile-wewefwwe")
-        self..assertIsNone(datafile)
+        self.assertIsNone(datafile)
 
     def test_empty_datafile(self):
         datafile = csv_reader(path=self.temporary_file)
