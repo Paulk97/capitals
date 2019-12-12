@@ -21,7 +21,7 @@ class TestMain(unittest.TestCase):
         datafile = csv_reader(path=self.temporary_file)
         self.assertFalse(datafile)
         
-    def test_valid_input(self):
+    def test_valid_extension(self):
         extension = type_file(datafile="/tmp/nonexistentfile-wewefwwe")
         self.assertEqual(extension, ".csv")
 
