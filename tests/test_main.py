@@ -15,7 +15,7 @@ class TestMain(unittest.TestCase):
         
     def test_no_datafile(self):
         datafile = csv_reader(path=self.temporary_file)
-        self.assertIs(".csv", self.temporary_file)
+        self.assertIn(".csv", self.temporary_file)
 
     def test_empty_datafile(self):
         datafile = csv_reader(path=self.temporary_file)
