@@ -1,6 +1,8 @@
 import unittest
-from myfolder.capitals.py import csv_reader
-from myfolder.capitals.py import type_file
+import sys
+sys.path.append('../myfolder')
+from capitals import csv_reader
+from capitals.py import type_file
 import os
 
 
