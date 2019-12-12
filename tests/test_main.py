@@ -22,7 +22,7 @@ class TestMain(unittest.TestCase):
         self.assertFalse(datafile)
         
     def test_valid_extension(self):
-        extension = type_file(path="/tmp/nonexistentfile-wewefwwe")
+        extension = type_file(path=self.temporary_file)
         self.assertEqual(extension, ".csv")
 
     def tearDown(self):
