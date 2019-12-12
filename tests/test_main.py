@@ -9,7 +9,7 @@ import os
 class TestMain(unittest.TestCase):
 
     def setUp(self):
-        self.temporary_file = "/tmp/temporary_file"
+        self.temporary_file = "/tmp/temporary_file.csv"
         f = open(self.temporary_file, 'w')
         f.close()
         
@@ -22,7 +22,7 @@ class TestMain(unittest.TestCase):
         self.assertFalse(datafile)
         
     def test_valid_extension(self):
-        extension = type_file(datafile="/tmp/nonexistentfile-wewefwwe")
+        extension = type_file(path="/tmp/nonexistentfile-wewefwwe")
         self.assertEqual(extension, ".csv")
 
     def tearDown(self):
