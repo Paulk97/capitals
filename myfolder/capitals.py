@@ -13,7 +13,7 @@ def csv_reader(path):
 '''From the dictionary return the value (capital) of the input key(state)
 '''
 
-csv_reader('/Users/nicolorosato/capitals/data/capitals.csv')
+csv_reader('capitals/data/capitals.csv')
 
 def check_capital(state):
     if state in d.keys():
