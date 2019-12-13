@@ -10,7 +10,7 @@ import argparse
 import csv
 import time
 import sys
-from myfolder.capitals import check_capital
+from myfolder.capitals import check_capital,csv_reader
 
 
 conn = None
@@ -66,8 +66,8 @@ parser.add_argument('-p', help="the username password",required= True)
 parser.add_argument('state', type=str, help="Dispaly capital's state name")
 parser.add_argument('-v', '--verbosity',help='increase verbosity',action='count', default=0)
 args = parser.parse_args()
-
-variable = check_capital(args.state)
+dic = csv_reader()
+variable = check_capital(args.state, dic)
 
 # print (args.state)
 
