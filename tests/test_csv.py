@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('home/seed/exam/myfolder')
+sys.path.append('/Users/nicolorosato/capitals/data/capitals.csv')
 from myfolder.test import csv_reader
 from myfolder.test import type_file
 import os
