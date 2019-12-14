@@ -1,5 +1,5 @@
 ## A Database of European's state capitals 🇪🇺
-Welcome to the repository 'exam'.
+Welcome to the repository 'capitals'.
 
 Team NMTP is pleased to have You here!
 
