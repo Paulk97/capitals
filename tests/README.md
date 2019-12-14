@@ -18,4 +18,5 @@ In the module ```TestMain1``` we check:
 In order to run correctly this piece of program it is necessary to insert the directory of the CSV file in two different point of the code:
 
 1. In the file ```test_csv.py```, inside ```tests```, in line 3;
-2 . In the file ```capitals.py```, inside ```myfolder```, in line 
+2 . In the file ```test.py```, inside ```myfolder```, in line 18;
+3. In the file ```capitals.py```, inside ```myfolder```, in line 7.
