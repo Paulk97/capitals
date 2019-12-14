@@ -1,7 +1,7 @@
 ## Tests
 As last step we test our code implementing three different functions in order to check three different aspect of our program.
 
-As to activate the test phase it is necessary to use this command:
+To activate the test phase, it is necessary to use this command:
 
 ``` 
 python3 -m unittest -v -b tests/test_csv.py
@@ -20,3 +20,8 @@ In order to run correctly this piece of program it is necessary to insert the di
 1. In the file ```test_csv.py```, inside ```tests```, in line 3;
 2 . In the file ```test.py```, inside ```myfolder```, in line 18;
 3. In the file ```capitals.py```, inside ```myfolder```, in line 7.
+
+If you follow the instructions, everything works fine.
+
+Thanks for your attention.
+Team NMTP
