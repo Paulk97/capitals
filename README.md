@@ -9,7 +9,8 @@ But, before starting using the program, please follow the instructions.
 
 The first thing you should do is to download the repository and populate the database with your username and password. 
 
-1. From your terminal, go into the ```'exam'```directory and then go to the ```'scripts'```one and ran dbmanager.py.  Here you can add a username with the relative password. The arguments you must use are  ```-a```, followed by your username, and ```-p``` followed by the password. 
+1. From your terminal, go into the ```'exam'```directory and then go to the ```'scripts'```one and run dbmanager.py.  Here you can add a username with the relative password. The arguments you must use are  ```-a```, followed by your username, and 
+```-p``` followed by the password. 
 
 
 ```
@@ -47,7 +48,7 @@ Madrid
 
 If you have successfully authenticated yourself and you have inserted a valid EU state, you receive a positive message. Your username is correct, your password is correct, you have access to the program,  and a primary output for your typed EU state, in this case, ```Rome``` is printed. 
 
-If you have misplaced your username or password, you receive an error message that invites you to solve the issue accordingly, whether it is a problem with the username or the password. Note well: if you try to insert a username or password that not been registered to the database, you have no access to the program. In the same way, till your username and password are not correct, you do not receive the EU capital of the state typed in the command line.  
+If you have misplaced your username or password, you receive an error message that invites you to solve the issue accordingly, whether it is a problem with the username or the password. Note well: if you try to insert a username or password that have not been registered to the database, you have no access to the program. In the same way, till your username and password are not correct, you do not receive the EU capital of the state typed in the command line.  
 If you typed a state that is not in the EU, you would receive an error message, which invites to insert a valid EU state. 
 
   Note well: the name of the state should start with a capital letter, ```i.e. Italy or France, not italy or france.``` Wrong   misspelt states are not considered valid. In this case, an error message manifests again.
