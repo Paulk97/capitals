@@ -1,8 +1,8 @@
 import unittest
 import sys
-sys.path.append('home/seed/capitals/myfolder')
-from myfolder.capitals import csv_reader
-from myfolder.capitals import type_file
+sys.path.append('home/seed/exam/myfolder')
+from myfolder.test import csv_reader
+from myfolder.test import type_file
 import os
 
 
@@ -14,12 +14,12 @@ class TestMain(unittest.TestCase):
         f.close()
         
     def test_no_datafile(self):
-        datafile = csv_reader()
+        datafile = csv_reader(path=self.temporary_file)
         self.assertIn(".csv", self.temporary_file)
         
-    def test_full_datafile(self):
-        datafile = csv_reader()
-        self.assertTrue(datafile)
+    def test_empty_datafile(self):
+        datafile = csv_reader(path=self.temporary_file)
+        self.assertFalse(datafile)
         
     def test_valid_extension(self):
         extension = type_file(path=self.temporary_file)

@@ -7,10 +7,13 @@ conn = None
 cursor = None
 
 ''' Creating tables named user and columns like:
-username, digest, and salt. The primary key is 
-assigned to digest. 
+
+username, digest, and salt. The primary key is
+
+assigned to digest.
 
 '''
+
 
 def open_and_create():
 
@@ -25,12 +28,16 @@ def open_and_create():
         cursor.execute('''CREATE TABLE user
                       (username CHAR(256),
                        digest CHAR(256),
-                       salt CHAR(256), 
+                       salt CHAR(256),
                        PRIMARY KEY (digest))''')
 
-''' Creating new optional argumnets for adding the user with his/her password
 
-''' 
+''' Creating new optional argumnets for
+
+adding the user with his/her password.
+
+'''
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -38,12 +45,14 @@ def parse_args():
                         required=False)
     parser.add_argument('-p', help="the username password",
                         required=True)
-    
+
     return parser.parse_args()
+
 
 ''' Adding new user and password to database user
 
-''' 
+'''
+
 
 def save_new_username(username, password):
     global conn
@@ -63,10 +72,7 @@ args = parse_args()
 
 if args.a and args.p:
     save_new_username(args.a, args.p)
-else: 
+else:
     print ("Something went wrong...")
 
 conn.close()
-
-
-
