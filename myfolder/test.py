@@ -15,4 +15,4 @@ def csv_reader(path):
         k,v = row
         d[k] = v
 
-csv_reader('/home/seed/Desktop/exam/data/capitals.csv')
+csv_reader('/home/seed/capitals/data/capitals.csv')
