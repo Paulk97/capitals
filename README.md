@@ -3,7 +3,7 @@ Welcome to the repository 'capitals'.
 
 Team NMTP is pleased to have You here!
 
-Downloading this repository, you have the chance to obtain a an EU member state's capital instantly! 
+Downloading this repository, you have the chance to obtain an EU member state's capital instantly! 
 
 But, before starting using the program, please follow the instructions. 
 
