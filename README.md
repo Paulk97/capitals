@@ -19,7 +19,7 @@ The first thing you should do is to download the repository and populate the dat
 User Paolo succesfully added to data.db
 
 ```
-   Note well: you must remember your password by heart, later it is necessary to authenticate yourself before starting using      the main.py module. By the way, after you have run the dbmanager.py module, your username and password are stored in a          database called data.db. ```Here your password is hashed, then salted, and iterated one hundred thousands times.``` 
+   Note well: you must remember your password by heart, later it is necessary to authenticate yourself before starting using      the main.py module. By the way, after you have run the dbmanager.py module, your username and password are stored in a        database called data.db. ```Here your password is salted and the salted password is hashed one hundred thousands              times.``` 
    If you have successfully run ```dbmanger.py```, e.g. ```python3 dbmanager.py a-  .... -p .... ```you receive a message. This    message tells you have successfully added a new user to the database ```data.db```. Note well: you can authenticate            yourself, in the ```main.py module``` only with a user present in the ```data.db```. 
 
 
