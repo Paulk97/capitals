@@ -4,7 +4,7 @@ import csv
 
 '''
 
-csv_path = '/Users/nicolorosato/capitals/data/capitals.csv'
+csv_path = 'data/capitals.csv'
 
 reader = csv.reader(open(csv_path, 'r'))
 d = {}
